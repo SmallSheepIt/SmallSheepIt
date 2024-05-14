@@ -28,7 +28,7 @@ export default sidebar({
         ]
       },
       {
-        text: "Java进阶",
+        text: "Java高级",
         collapsible: true,
         prefix: "advanced/",
         children: [
