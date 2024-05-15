@@ -1,9 +1,3 @@
-```markmap
----
-markmap:
-  colorFreezeLevel: 2
----
-
 # Java
 
 ## Java基础
@@ -411,6 +405,3 @@ markmap:
 ### 阿里技术团队：https://102.alibaba.com/tech/list/
 
 ### 有赞技术团队：https://tech.youzan.com/tag/back-end/
-
-
-```

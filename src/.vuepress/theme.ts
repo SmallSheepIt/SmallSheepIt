@@ -7,15 +7,15 @@ export default hopeTheme(
   {
     search: true,
     darkmode: "toggle",
-    hostname: "http://113.45.177.232/",
+    hostname: "http://120.77.8.168/",
     author: {
       name: "SmallSheep",
-      url: "http://113.45.177.232/",
+      url: "http://120.77.8.168/",
       email: "1757821361@qq.com"
     },
 
     // 内置的"fontawesome" "fontawesome-with-brands"
-    iconAssets: "//at.alicdn.com/t/c/font_4542339_imvro6r5o5.css",
+    iconAssets: "//at.alicdn.com/t/c/font_4542339_djpqqts8wqn.css",
 
     // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
     // pure: true,
