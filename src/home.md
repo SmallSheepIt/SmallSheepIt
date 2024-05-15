@@ -12,10 +12,9 @@
 - [字符串](java/basis/basic-programming-structure/string.md) 
 
 ### 面向对象
-
--  [类&对象](java/basis/oop/object-and-class.md) 
--  [包](java/basis/oop/package.md) 
--  [变量](java/basis/oop/var.md) 
+- [类&对象](java/basis/oop/object-and-class.md)
+- [包](java/basis/oop/package.md)
+- [变量](java/basis/oop/var.md)
 - 方法
 - 方法参数
 - 构造函数
@@ -31,13 +30,11 @@
 - 枚举
 - 内部类
 - 关键字
-
 	- this
 	- super
 	- static
 	- final
 	- instanceof
-
 ### 集合框架
 
 - Collection接口
