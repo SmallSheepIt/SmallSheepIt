@@ -1,3 +1,9 @@
+```markmap
+---
+markmap:
+  colorFreezeLevel: 2
+---
+
 # Java
 
 ## Java基础
@@ -406,3 +412,5 @@
 
 ### 有赞技术团队：https://tech.youzan.com/tag/back-end/
 
+
+```

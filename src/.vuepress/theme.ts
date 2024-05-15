@@ -161,6 +161,7 @@ export default hopeTheme(
         global: true,
       },
       activeHeaderLinks: true,
+      // 默认的代码高亮器，不能高亮所有代码语法
       prismjs: false,
       blog: true,
 
@@ -205,6 +206,11 @@ export default hopeTheme(
         tabs: true,
         tasklist: true,
         vPre: true,
+        markmap: true,
+        plantuml: true,
+
+        // 剧透
+        // spoiler: true,
 
         // 在启用之前安装 chart.js
         // chart: true,
@@ -215,10 +221,10 @@ export default hopeTheme(
         // echarts: true,
 
         // 在启用之前安装 flowchart.ts
-        // flowchart: true,
+        flowchart: true,
 
         // gfm requires mathjax-full to provide tex support
-        // gfm: true,
+        gfm: true,
 
         // 在启用之前安装 katex
         // katex: true,
@@ -227,7 +233,9 @@ export default hopeTheme(
         // mathjax: true,
 
         // 在启用之前安装 mermaid
-        // mermaid: true,
+        mermaid: true,
+
+        // kotlinPlayground: true,
 
         // playground: {
         //   presets: ["ts", "vue"],

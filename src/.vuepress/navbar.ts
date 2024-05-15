@@ -3,6 +3,9 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
+    text: "java路线", link: "/home"
+  },
+  {
     text: "博客",
     children: [
       {text: "Java", icon: "java", link: "/java/"},

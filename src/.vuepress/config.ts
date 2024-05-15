@@ -27,6 +27,7 @@ export default defineUserConfig({
   },
 
   plugins: [
+    // 代码主题插件
     shikiPlugin({
       // 你的选项
       themes: {

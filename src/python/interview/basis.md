@@ -68,3 +68,169 @@ Python提供了两种基本类型的函数：内置和用户自定义
 pass：通过，可以理解为一个占位符，代码还会往下执行  
 continue：跳过循环中的某一次循环，continue下面的代码不执行，进行下一次循环  
 break：跳出循环  
+
+5^th^  
+H~2~O  
+- [x] 计划 A
+- [x] 计划 B
+
+一个水果选项卡列表:
+
+::: tabs#fruit
+
+@tab apple1#apple
+```sh
+npm install 
+```
+
+@tab banana#banana
+
+Banana
+
+:::
+
+另一个水果选项卡列表:
+
+::: tabs#fruit
+
+@tab apple
+
+Apple
+
+@tab banana
+
+Banana
+
+@tab orange
+
+Orange
+
+:::
+
+一个没有绑定 id 的水果选项卡列表:
+
+::: tabs
+
+@tab apple
+
+Apple
+
+@tab banana
+
+Banana
+
+@tab orange
+
+Orange
+
+:::
+
+> [!note]
+> 注释文字
+
+> [!important]
+> 重要文字
+
+> [!tip]
+> 提示文字
+
+> [!warning]
+> 注意文字
+
+> [!caution]
+> 警告文字
+
+VuePress Theme Hope !!非常强大!!!
+
+@startuml
+Alice -> Bob: 认证请求
+
+alt 成功情况
+
+    Bob -> Alice: 认证接受
+
+else 某种失败情况
+
+    Bob -> Alice: 认证失败
+    group 我自己的标签
+    Alice -> Log : 开始记录攻击日志
+        loop 1000次
+            Alice -> Bob: DNS 攻击
+        end
+    Alice -> Log : 结束记录攻击日志
+    end
+
+else 另一种失败
+
+    Bob -> Alice: 请重复
+
+end
+@enduml
+
+
+```flow
+st=>start: 开始|past:>http://www.google.com[blank]
+e=>end: 结束|future:>http://www.google.com
+op1=>operation: 操作1|past
+op2=>operation: 操作2|current
+sub1=>subroutine: 子程序|invalid
+cond=>condition: 是/否?|approved:>http://www.google.com
+c2=>condition: 判断2|rejected
+io=>inputoutput: 进行反思...|future
+
+st->op1(right)->cond
+cond(yes, right)->c2
+cond(no)->sub1(left)->op1
+c2(yes)->io->e
+c2(no)->op2->e
+```
+
+安装 VuePress Theme Hope:
+
+::: code-tabs#shell
+
+@tab pnpm
+
+```bash
+pnpm add -D vuepress-theme-hope
+```
+
+@tab yarn
+
+```bash
+yarn add -D vuepress-theme-hope
+```
+
+@tab:active npm
+
+```bash
+npm i -D vuepress-theme-hope
+```
+
+:::
+
+安装 VuePress Plugin Markdown Enhance:
+
+::: code-tabs#shell
+
+@tab pnpm
+
+```bash
+pnpm add -D vuepress-plugin-md-enhance
+```
+
+@tab yarn
+
+```bash
+yarn add -D vuepress-plugin-md-enhance
+```
+
+@tab:active npm
+
+```bash
+npm i -D vuepress-plugin-md-enhance
+```
+
+:::
+
+
