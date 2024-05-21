@@ -6,3 +6,4 @@ src/.vuepress/dist/
 package-lock.json
 
 src/python/basis
+src/python/advanced/
