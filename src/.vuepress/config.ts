@@ -11,7 +11,7 @@ export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
   title: "SmallSheep",
-  description: "打造自己的编程知识体系",
+  description: "构建自己的编程知识体系",
 
   head: [
     

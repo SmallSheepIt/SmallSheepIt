@@ -64,6 +64,28 @@ export default sidebar({
         "/python/interview/basis"
       ]
     }
+  ],
+  "/collection/": [
+    {
+      text: "机场服务商",
+      icon: "jichang",
+      link: "/collection/airport-list"
+    },
+    {
+      text: "破解网站",
+      icon: "baolipojie",
+      link: "/collection/crack-website"
+    },
+    {
+      text: "编程网站",
+      icon: "biancheng",
+      link: "/collection/programming-website"
+    },
+    {
+      text: "前端字体",
+      icon: "ziti",
+      link: "/collection/frontend-font"
+    },
   ]
 });
 // 

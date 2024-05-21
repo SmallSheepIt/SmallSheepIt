@@ -14,10 +14,13 @@ export default navbar([
     ]
   },
   {
-    text: "收藏资源",
-    icon: "daohang",
+    text: "资源网站&工具",
+    icon: "lianjiewangzhiwangzhan",
     children: [
-      "/collection/resource-websites"
+      {text: "机场", icon: "jichang", link: "/collection/airport-list"},
+      {text: "破解网站", icon: "baolipojie", link: "/collection/"},
+      {text: "编程网站", icon: "biancheng", link: "/collection/programming-website"},
+      {text: "前端字体", icon: "ziti", link: "/collection/frontend-font"},
     ]
   },
 ]);
