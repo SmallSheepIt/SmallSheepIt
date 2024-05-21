@@ -65,27 +65,31 @@ export default sidebar({
       ]
     }
   ],
-  "/collection/": [
+  "/collection/websites-and-tools/": [
     {
       text: "机场服务商",
       icon: "jichang",
-      link: "/collection/airport-list"
+      link: "/collection/websites-and-tools/airport-list"
     },
     {
       text: "破解网站",
       icon: "baolipojie",
-      link: "/collection/crack-website"
+      link: "/collection/websites-and-tools/crack-website"
     },
     {
       text: "编程网站",
       icon: "biancheng",
-      link: "/collection/programming-website"
+      link: "/collection/websites-and-tools/programming-website"
     },
     {
       text: "前端字体",
       icon: "ziti",
-      link: "/collection/frontend-font"
+      link: "/collection/websites-and-tools/frontend-font"
+    },
+    {
+      text: "免费视频",
+      icon: "shipin",
+      link: "/collection/websites-and-tools/free-video"
     },
   ]
 });
-// 
