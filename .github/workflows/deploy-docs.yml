@@ -4,7 +4,7 @@ name: depoly-docs
 on:
   push:
     branches:
-      - master
+      - master1
 
 permissions:
   contents: write
@@ -30,11 +30,11 @@ jobs:
 
       - name: 安装依赖
         run: |
-          npm cache clean --force
+          # npm cache clean --force
           # rm package-lock.json
-          # corepack enable
-          # npm ci
-          npm install
+          corepack enable
+          npm ci
+          # npm install
 
       - name: 构建文档
         env:
