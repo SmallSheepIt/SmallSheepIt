@@ -5,7 +5,6 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme(
   {
-    search: true,
     darkmode: "toggle",
     hostname: "http://120.77.8.168/",
     author: {
@@ -19,7 +18,7 @@ export default hopeTheme(
 
     // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
     // pure: true,
-    fullscreen: true,
+    fullscreen: false,
 
 
     // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -126,6 +125,45 @@ export default hopeTheme(
 
     // 在这里配置主题提供的插件
     plugins: {
+
+      // 默认的代码高亮器，不能高亮所有代码语法
+      // prismjs: false,
+      prismjs: {
+        light: "one-light",
+        dark: "one-dark"
+      },
+
+      // 评论插件
+      // comment: {
+      //   // Giscus 评论插件
+      //   // comment: false,
+      //   // provider: "Giscus",
+      //   // repo :"yangwenjinIter/yangwenjin-docs-comment-giscus",
+      //   // repoId:"R_kgDOL6Klig",
+      //   // category:"General",
+      //   // categoryId:"DIC_kwDOL6Klis4CfSf7",
+      //   // mapping: "pathname",
+      //   // lazyLoading: true,
+
+      //   // Waline 评论插件
+      //   provider: "Waline",
+      //   serverURL: "yangwenjin-blog-comment-waline.vercel.app",
+      //   // 快速反应
+      //   reaction: true,
+      //   // 浏览量统计
+      //   pageview: true,
+      //   emoji: [
+      //     '//unpkg.com/@waline/emojis@1.2.0/weibo',
+      //     '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+      //     '//unpkg.com/@waline/emojis@1.2.0/alus',
+      //     '//unpkg.com/@waline/emojis@1.2.0/bilibili',
+      //     '//unpkg.com/@waline/emojis@1.2.0/qq',
+      //     '//unpkg.com/@waline/emojis@1.2.0/tieba',
+      //     '//unpkg.com/@waline/emojis@1.2.0/tw-emoji',
+      //     '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
+      //   ]
+      // },
+      
       searchPro: {
         // 索引全部内容
         indexContent: true,
@@ -161,8 +199,7 @@ export default hopeTheme(
         global: true,
       },
       activeHeaderLinks: true,
-      // 默认的代码高亮器，不能高亮所有代码语法
-      prismjs: false,
+      
       blog: true,
 
       // 启用之前需安装 @waline/client

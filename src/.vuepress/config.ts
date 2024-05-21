@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
-import { shikiPlugin } from "@vuepress/plugin-shiki";
+// import { shikiPlugin } from "@vuepress/plugin-shiki";
 import { commentPlugin } from '@vuepress/plugin-comment';
 // import { searchPlugin } from '@vuepress/plugin-search';
 
@@ -27,14 +27,15 @@ export default defineUserConfig({
   },
 
   plugins: [
-    // 代码主题插件
-    shikiPlugin({
-      // 你的选项
-      themes: {
-        light: "github-light",
-        dark: "one-dark-pro",
-      },
-    }),
+    // 代码主题插件(window依赖有问题)
+    // shikiPlugin({
+    //   // 你的选项
+    //   themes: {
+    //     light: "github-light",
+    //     dark: "one-dark-pro",
+    //   },
+    // }),
+
     commentPlugin({
       // Giscus 评论插件
       // comment: false,
