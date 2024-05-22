@@ -32,7 +32,7 @@ export default defineClientConfig({
   // },
   rootComponents: [
     NavBarBeautify,
-    HeroBG,
+    // HeroBG,
     // HeroHitokoto,
     NavMusic,
     // PrintVersion,
