@@ -39,10 +39,10 @@ export default hopeTheme(
     repoDisplay: true,
 
     // 文档仓库地址，默认同主题选项的 repo
-    docsRepo: "https://github.com/yangwenjinIter/yangwenjinIter.github.io",
+    docsRepo: "https://github.com/SmallSheepIt/SmallSheepIt.github.io",
     docsDir: "src",
     // 文档存放的分支，默认 main
-    docsBranch: "main",
+    docsBranch: "master",
 
     // 导航栏
     navbar,
