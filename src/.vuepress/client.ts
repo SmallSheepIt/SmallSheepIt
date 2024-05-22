@@ -1,5 +1,5 @@
 import { defineClientConfig } from "vuepress/client";
-import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
+// import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
 import { defineAsyncComponent } from 'vue';
 
 import "vuepress-theme-hope/presets/shinning-feature-panel.scss";
@@ -20,16 +20,16 @@ const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
 // const BlogBeautify = defineAsyncComponent(() => import('./components/BlogBeautify.vue'));
 
 export default defineClientConfig({
-  setup() {
-    setupRunningTimeFooter(
-      new Date("2024-05-12"),
-      {
-        // "/": ": :day days :hour hours :minute minutes :second seconds",
-        "/": "网站已运行 :day 天 :hour 小时 :minute 分钟 :second 秒",
-      },
-      true,
-    );
-  },
+  // setup() {
+  //   setupRunningTimeFooter(
+  //     new Date("2024-05-12"),
+  //     {
+  //       // "/": ": :day days :hour hours :minute minutes :second seconds",
+  //       "/": "网站已运行 :day 天 :hour 小时 :minute 分钟 :second 秒",
+  //     },
+  //     true,
+  //   );
+  // },
   rootComponents: [
     NavBarBeautify,
     HeroBG,
