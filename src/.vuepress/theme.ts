@@ -31,7 +31,7 @@ export default hopeTheme(
       end: ['Search', 'Links', 'Language', 'Outlook'],
     },
 
-    repo: "https://github.com/yangwenjinIter/yangwenjinIter.github.io",
+    repo: "https://github.com/SmallSheepIt/SmallSheepIt.github.io",
     // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repoLabel: "GitHub",
@@ -190,6 +190,7 @@ export default hopeTheme(
           },
         ],
       },
+      
       copyright: {
         author: " SmallSheep",
         license: "MIT",
