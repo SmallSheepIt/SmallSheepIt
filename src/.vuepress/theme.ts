@@ -6,10 +6,10 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 export default hopeTheme(
   {
     darkmode: "toggle",
-    hostname: "http://120.77.8.168/",
+    hostname: "http://smallsheep.icu/",
     author: {
       name: "SmallSheep",
-      url: "http://120.77.8.168/",
+      url: "http://smallsheep.icu/",
       email: "1757821361@qq.com"
     },
 
