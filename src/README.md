@@ -51,5 +51,6 @@ article: false
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 备案信息后续更新在这里
+footer: |-
+    <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024253972号-1</a>
 ---
