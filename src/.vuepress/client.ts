@@ -37,7 +37,7 @@ export default defineClientConfig({
     NavMusic,
     // PrintVersion,
     CommentHideBtn,
-    BlogBg,
+    // BlogBg,
     // BlogBeautify,
     // ...
   ],
