@@ -91,5 +91,10 @@ export default sidebar({
       icon: "shipin",
       link: "/collection/websites-and-tools/free-video"
     },
+    {
+      text: "SSL证书",
+      icon: "SSL",
+      link: "/collection/websites-and-tools/ssl-website"
+    },
   ]
 });
