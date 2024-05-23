@@ -12,9 +12,9 @@ import "vuepress-theme-hope/presets/bounce-icon.scss";
 // 不生效
 // import "vuepress-theme-hope/presets/hr-driving-car.scss";
 
-const NavBarBeautify = defineAsyncComponent(() => import('./components/NavBarBeautify.vue'));
+// const NavBarBeautify = defineAsyncComponent(() => import('./components/NavBarBeautify.vue'));
 // const HeroBG = defineAsyncComponent(() => import('./components/HeroBG.vue'));
-const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
+// const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 // const CommentHideBtn = defineAsyncComponent(() => import('./components/CommentHideBtn.vue'));
 // const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
 // const BlogBeautify = defineAsyncComponent(() => import('./components/BlogBeautify.vue'));
@@ -30,15 +30,15 @@ export default defineClientConfig({
   //     true,
   //   );
   // },
-  rootComponents: [
-    NavBarBeautify,
-    // HeroBG,
-    // HeroHitokoto,
-    NavMusic,
-    // PrintVersion,
-    // CommentHideBtn,
-    // BlogBg,
-    // BlogBeautify,
-    // ...
-  ],
+  // rootComponents: [
+  //   NavBarBeautify,
+  //   HeroBG,
+  //   HeroHitokoto,
+  //   NavMusic,
+  //   PrintVersion,
+  //   CommentHideBtn,
+  //   BlogBg,
+  //   BlogBeautify,
+  //   // ...
+  // ],
 });

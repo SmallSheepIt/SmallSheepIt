@@ -25,18 +25,18 @@ export default hopeTheme(
     logo: "/logo.png",
     favicon: "/logo.png",
 
-    navbarLayout: {
-      start: ['Brand'],
-      center: [],
-      end: ['Search', 'Links', 'Language', 'Outlook'],
-    },
+    // navbarLayout: {
+    //   start: ['Brand'],
+    //   center: [],
+    //   end: ['Search', 'Links', 'Language', 'Outlook'],
+    // },
 
     repo: "https://github.com/SmallSheepIt/SmallSheepIt.github.io",
     // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repoLabel: "GitHub",
     // 是否在导航栏内显示仓库链接，默认为 `true`
-    repoDisplay: true,
+    repoDisplay: false,
 
     // 文档仓库地址，默认同主题选项的 repo
     docsRepo: "https://github.com/SmallSheepIt/SmallSheepIt.github.io",
@@ -71,7 +71,7 @@ export default hopeTheme(
       sidebarDisplay: "mobile",
       // 文章摘要(不生效)
       // excerptLength: 0,
-      timeline: "我的写作记录",
+      timeline: "昨日沉淀",
       medias: {
         // Baidu: "https://example.com",
         // BiliBili: "https://example.com",
@@ -84,7 +84,7 @@ export default hopeTheme(
         // Facebook: "https://example.com",
         // Flipboard: "https://example.com",
         // Gitee: "https://example.com",
-        GitHub: "https://github.com/SmallSheepIt",
+        // GitHub: "https://github.com/SmallSheepIt",
         // Gitlab: "https://example.com",
         // Gmail: "mailto:info@example.com",
         // Instagram: "https://example.com",
@@ -202,13 +202,6 @@ export default hopeTheme(
       activeHeaderLinks: true,
       
       blog: true,
-
-      // 启用之前需安装 @waline/client
-      // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
-      // comment: {
-      //   provider: "Waline",
-      //   serverURL: "https://yangwenjin-blog-comment-waline-p6qx9fdm6.vercel.app",
-      // },
 
       components: {
         components: ["Badge", "VPCard"],
