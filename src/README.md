@@ -17,7 +17,7 @@ heroText: SmallSheep
 # 副标题
 tagline: 觉得晚了，其实，真的晚了
 # 全屏
-heroFullScreen: true
+# heroFullScreen: true
 article: false
 # 主页按钮
 # projects:
