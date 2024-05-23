@@ -20,16 +20,15 @@ export default hopeTheme(
     // pure: true,
     fullscreen: false,
 
-
     // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
     logo: "/logo.png",
     favicon: "/logo.png",
 
-    // navbarLayout: {
-    //   start: ['Brand'],
-    //   center: [],
-    //   end: ['Search', 'Links', 'Language', 'Outlook'],
-    // },
+    navbarLayout: {
+      start: ['Brand'],
+      center: [],
+      end: ['Search', 'Links', 'Language', 'Outlook'],
+    },
 
     repo: "https://github.com/SmallSheepIt/SmallSheepIt.github.io",
     // 自定义仓库链接文字。默认从 `repo` 中自动推断为

@@ -15,7 +15,7 @@ heroImage: "/logo.png"
 # 主标题
 heroText: SmallSheep
 # 副标题
-tagline: 一个构建知识体系的网站
+tagline: 觉得晚了，其实，真的晚了
 # 全屏
 heroFullScreen: true
 article: false
