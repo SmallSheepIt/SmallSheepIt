@@ -5,17 +5,17 @@ icon: home
 title: 主页
 # 头像
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroImage: "/logo.png"
+# heroImage: "/logo.png"
 # 深色的头像
 # heroImageDark: https://theme-hope-assets.vuejs.press/logo.svg
 # 背景图片，注意必须填入完整额 url 或者 绝对路径
-# bgImage: "https://theme-hope-assets.vuejs.press/logo.svg"
+bgImage: "/img/logo4.png"
 # 深色模式的背景图片
 # bgImageDark: "https://theme-hope-assets.vuejs.press/logo.svg"
 # 主标题
-heroText: SmallSheep
+heroText: "SmallSheep"
 # 副标题
-tagline: 觉得晚了，其实，真的晚了
+tagline: If you think you can, then you can.
 # 全屏
 # heroFullScreen: true
 article: false
