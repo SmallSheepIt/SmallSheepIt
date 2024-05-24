@@ -5,6 +5,7 @@ export default sidebar({
       {
         text: "Java基础",
         collapsible: true,
+        icon: "basis",
         // prefix: "basis/",
         children: [
           {
@@ -34,16 +35,23 @@ export default sidebar({
       {
         text: "Java高级",
         collapsible: true,
+        icon: "advanced",
         // prefix: "advanced/",
         children: [
 
         ]
-      }
+      },
+      {
+        text: "Java学习路线",
+        icon: "wodexuexiluxian",
+        link: "/java/learning-route"
+      },
   ],
   "/python/": [
     {
       text: "Python基础",
       collapsible: true,
+      icon: "basis",
       // prefix: "basis/",
       children: [
         
@@ -52,6 +60,7 @@ export default sidebar({
     {
       text: "Python进阶",
       collapsible: true,
+      icon: "advanced",
       // prefix: "advanced/",
       children: [
         
@@ -60,6 +69,7 @@ export default sidebar({
     {
       text: "面试题集",
       collapsible: true,
+      icon: "mianshianpai",
       children: [
         "/python/interview/basis"
       ]
