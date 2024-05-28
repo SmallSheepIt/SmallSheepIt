@@ -14,7 +14,7 @@
 | [SSL超市](https://www.sslchaoshi.com/)          | 提供1-3个月免费证书       |                                                              |
 | [免费SSL](https://www.mianfeissl.com/)          | 提供1-3个月免费证书       |                                                              |
 | [便宜SSL](https://www.pianyissl.com/)           | 提供1个月免费证书         |                                                              |
-| [OHTTPS](https://ohttps.com/monitor/dashboard/) | 一直提供Let's Encrypt证书 | ohttps提供了证书过期自动更新、自动部署等服务，这些需要服务需要收费，但是看价格很良心 |
+| [OHTTPS](https://ohttps.com/monitor/dashboard/) | 一直提供Let's Encrypt证书 | ohttps提供了证书过期自动更新、自动部署等服务，这些服务需要收费，但是看价格很良心 |
 | [FreeSSL](https://freessl.org/home.html)        | 提供3个月免费证书         |                                                              |
 | [青云](https://www.qingcloud.com/)              | 提供3个月免费证书         | 免费过后真贵                                                 |
 | [站长安全认证](https://aq.chinaz.com/SSL)       | 提供3个月免费证书         |                                                              |
