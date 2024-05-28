@@ -15,7 +15,7 @@ bgImage: "/img/logo4.png"
 # 主标题
 heroText: "SmallSheep"
 # 副标题
-tagline: If you think you can, then you can.
+tagline: Don't wait, just do it now.
 # 全屏
 # heroFullScreen: true
 article: false
