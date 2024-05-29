@@ -112,6 +112,7 @@ export default sidebar({
       text: "新生儿出生后需要做的一些重要的事",
       icon: "",
       collapsible: true,
+      link: "/life-notes/newborns-important-things/",
       children: [
         "/life-notes/newborns-important-things/办理出生证",
         "/life-notes/newborns-important-things/办理户口本&身份证",
