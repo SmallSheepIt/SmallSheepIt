@@ -106,5 +106,22 @@ export default sidebar({
       icon: "SSL",
       link: "/collection/websites-and-tools/ssl-website"
     },
+  ],
+  "/life-notes/": [
+    {
+      text: "新生儿出生后需要做的一些重要的事",
+      icon: "",
+      collapsible: true,
+      children: [
+        "/life-notes/newborns-important-things/办理出生证",
+        "/life-notes/newborns-important-things/办理户口本&身份证",
+        "/life-notes/newborns-important-things/购买少儿医保",
+        "/life-notes/newborns-important-things/激活少儿医保凭证",
+        "/life-notes/newborns-important-things/办理金融社保卡",
+        "/life-notes/newborns-important-things/绑定父母社保卡",
+        "/life-notes/newborns-important-things/个人账户支付医保缴费申请",
+        "/life-notes/newborns-important-things/报销新生儿科住院费用",
+      ]
+    }
   ]
 });

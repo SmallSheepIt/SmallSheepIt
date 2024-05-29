@@ -18,4 +18,9 @@ export default navbar([
 
     ]
   },
+  {
+    text: "生活笔记",
+    icon: "",
+    link: "/life-notes/"
+  }
 ]);
