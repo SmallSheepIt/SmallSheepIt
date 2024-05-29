@@ -19,6 +19,13 @@ export default navbar([
     ]
   },
   {
+    text: "教程",
+    icon: "",
+    children: [
+      
+    ]
+  },
+  {
     text: "生活笔记",
     icon: "",
     link: "/life-notes/"
