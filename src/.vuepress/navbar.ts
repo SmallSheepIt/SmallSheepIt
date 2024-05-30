@@ -1,7 +1,6 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  // "/",
   {
     text: "博客",
     icon: "boke",
@@ -15,15 +14,15 @@ export default navbar([
     icon: "resource",
     link: "/collection/",
   },
-  {
-    text: "教程",
-    icon: "",
-    children: [
-    ]
-  },
+  // {
+  //   text: "教程",
+  //   icon: "",
+  //   children: [
+  //   ]
+  // },
   {
     text: "生活笔记",
-    icon: "",
+    icon: "a-bijibenbiji",
     link: "/life-notes/"
   }
 ]);

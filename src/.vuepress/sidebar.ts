@@ -79,6 +79,7 @@ export default sidebar({
       {
         text: "资源网站&工具",
         collapsible: true,
+        icon: "lianjiewangzhiwangzhan",
         link: "/collection/websites-and-tools/",
         children: [
           {
@@ -117,6 +118,7 @@ export default sidebar({
   "/life-notes/": [
     {
       text: "新生儿宝宝出生后的那些事",
+      icon: "yingyouer-",
       link: "/life-notes/newborns-important-things",
     }
   ]

@@ -14,7 +14,7 @@ export default hopeTheme(
     },
 
     // 内置的"fontawesome" "fontawesome-with-brands"
-    iconAssets: "//at.alicdn.com/t/c/font_4542339_6u1azatapi5.css",
+    iconAssets: "//at.alicdn.com/t/c/font_4542339_g3fasj2kw5.css",
 
     // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
     // pure: true,

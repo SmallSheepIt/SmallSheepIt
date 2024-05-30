@@ -7,8 +7,8 @@ import "vuepress-theme-hope/presets/left-blog-info.scss";
 import "vuepress-theme-hope/presets/round-blogger-avatar.scss";
 import "vuepress-theme-hope/presets/bounce-icon.scss";
 
-import "vuepress-theme-hope/presets/hide-navbar-icon.scss";
-import "vuepress-theme-hope/presets/hide-sidebar-icon.scss";
+// import "vuepress-theme-hope/presets/hide-navbar-icon.scss";
+// import "vuepress-theme-hope/presets/hide-sidebar-icon.scss";
 // import "vuepress-theme-hope/presets/hr-driving-car.scss";
 
 // const NavBarBeautify = defineAsyncComponent(() => import('./components/NavBarBeautify.vue'));
