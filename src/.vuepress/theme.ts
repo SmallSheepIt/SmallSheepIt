@@ -263,7 +263,7 @@ export default hopeTheme(
         // mathjax: true,
 
         // 在启用之前安装 mermaid
-        mermaid: true,
+        // mermaid: true,
 
         // kotlinPlayground: true,
 
