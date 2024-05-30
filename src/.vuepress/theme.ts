@@ -6,10 +6,10 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 export default hopeTheme(
   {
     darkmode: "toggle",
-    hostname: "http://smallsheep.icu/",
+    hostname: "https://smallsheep.icu/",
     author: {
       name: "SmallSheep",
-      url: "http://smallsheep.icu/",
+      url: "https://smallsheep.icu/",
       email: "1757821361@qq.com"
     },
 
@@ -18,7 +18,7 @@ export default hopeTheme(
 
     // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
     // pure: true,
-    fullscreen: false,
+    fullscreen: true,
 
     // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
     logo: "/logo.png",
@@ -127,10 +127,10 @@ export default hopeTheme(
 
       // 默认的代码高亮器，不能高亮所有代码语法
       // prismjs: false,
-      prismjs: {
-        light: "one-light",
-        dark: "one-dark"
-      },
+      // prismjs: {
+      //   light: "one-light",
+      //   dark: "one-dark"
+      // },
 
       // 评论插件
       comment: {

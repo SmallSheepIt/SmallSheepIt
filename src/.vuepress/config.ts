@@ -1,7 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
-// import { shikiPlugin } from "@vuepress/plugin-shiki";
+import { shikiPlugin } from "@vuepress/plugin-shiki";
+import { photoSwipePlugin } from '@vuepress/plugin-photo-swipe'
 // import { commentPlugin } from '@vuepress/plugin-comment';
 // import { searchPlugin } from '@vuepress/plugin-search';
 
@@ -27,14 +28,23 @@ export default defineUserConfig({
   },
 
   plugins: [
-    // 代码主题插件(window依赖有问题)
-    // shikiPlugin({
-    //   // 你的选项
-    //   themes: {
-    //     light: "github-light",
-    //     dark: "one-dark-pro",
-    //   },
-    // }),
+    // 代码主题插件
+    shikiPlugin({
+      // 你的选项
+      // 不设置会默认加载所有语言，建议设置需要高亮的语言，支持的语言-> https://shiki.style/languages
+      langs: ['ts', 'json', 'vue', 'md', 'bash', 'diff', 'python', 'java'],
+      // 支持主题->https://shiki.style/themes
+      themes: {
+        light: "github-light",
+        dark: "one-dark-pro",
+      },
+      // lineNumbers: false
+    }),
+
+    photoSwipePlugin({
+      // 选项
+      selector: ".theme-default-content :not(a) > img:not([no-view])"
+    }),
 
     // commentPlugin({
     //   // Giscus 评论插件

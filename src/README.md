@@ -11,7 +11,7 @@ title: 主页
 # 背景图片，注意必须填入完整额 url 或者 绝对路径
 bgImage: "/img/logo4.png"
 # 深色模式的背景图片
-# bgImageDark: "https://theme-hope-assets.vuejs.press/logo.svg"
+bgImageDark: "/img/logo5.png"
 # 主标题
 heroText: "SmallSheep"
 # 副标题
