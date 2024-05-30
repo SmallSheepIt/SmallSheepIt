@@ -121,5 +121,16 @@ export default sidebar({
       icon: "yingyouer-",
       link: "/life-notes/newborns-important-things",
     }
+  ],
+  "/course/": [
+    {
+      text: "命令速查表",
+      icon: "jibenmingling-jibenmingling",
+      collapsible: true,
+      link: "/course/",
+      children: [
+        {text: "windows命令", icon: "windows", link: "/course/cmd/windows"}
+      ]
+    }
   ]
 });

@@ -14,12 +14,11 @@ export default navbar([
     icon: "resource",
     link: "/collection/",
   },
-  // {
-  //   text: "教程",
-  //   icon: "",
-  //   children: [
-  //   ]
-  // },
+  {
+    text: "教程",
+    icon: "jiaocheng",
+    link: "/course/"
+  },
   {
     text: "生活笔记",
     icon: "a-bijibenbiji",
