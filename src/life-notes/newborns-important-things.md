@@ -89,7 +89,7 @@
 
 查询到缴费状态为 已缴费 时，就可以申请少儿电子医保凭证了
 
-<img src="https://smallsheep-assets.oss-cn-guangzhou.aliyuncs.com/assets/202405300331225.png" alt="image-20240530033142193" style="zoom:50%;" />
+![少儿医保缴费状态](https://smallsheep-assets.oss-cn-guangzhou.aliyuncs.com/assets/202405301728542.png)
 
 ## 5、激活少儿医保凭证
 
@@ -168,4 +168,3 @@ Q&A：
 深圳能报销60%-70%左右（统筹），自费占5%，个账占30%左右（需要绑定父母社保）
 
 :::
-

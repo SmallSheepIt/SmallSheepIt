@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.9",
-    "@vuepress/plugin-photo-swipe": "^2.0.0-rc.31",
     "@vuepress/plugin-shiki": "^2.0.0-rc.32",
     "markmap-lib": "^0.17.0",
     "markmap-toolbar": "^0.17.0",
@@ -23,6 +22,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
     "aplayer": "^1.10.1",
     "axios": "^1.6.8",
     "store": "^2.0.12",

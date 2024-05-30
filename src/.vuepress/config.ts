@@ -2,7 +2,6 @@ import { defineUserConfig } from "vuepress";
 import { getDirname, path } from "vuepress/utils";
 import theme from "./theme.js";
 import { shikiPlugin } from "@vuepress/plugin-shiki";
-import { photoSwipePlugin } from '@vuepress/plugin-photo-swipe'
 // import { commentPlugin } from '@vuepress/plugin-comment';
 // import { searchPlugin } from '@vuepress/plugin-search';
 
@@ -39,11 +38,6 @@ export default defineUserConfig({
         dark: "one-dark-pro",
       },
       // lineNumbers: false
-    }),
-
-    photoSwipePlugin({
-      // 选项
-      selector: ".theme-default-content :not(a) > img:not([no-view])"
     }),
 
     // commentPlugin({

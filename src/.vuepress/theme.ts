@@ -124,7 +124,6 @@ export default hopeTheme(
 
     // 在这里配置主题提供的插件
     plugins: {
-
       // 默认的代码高亮器，不能高亮所有代码语法
       // prismjs: false,
       // prismjs: {
@@ -216,6 +215,7 @@ export default hopeTheme(
         figure: true,
         imgLazyload: true,
         imgSize: true,
+        imgMark: true,
         include: true,
         mark: true,
         stylize: [
