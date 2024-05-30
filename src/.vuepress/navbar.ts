@@ -13,16 +13,12 @@ export default navbar([
   {
     text: "收藏资源",
     icon: "resource",
-    children: [
-      {text: "资源网站&工具", icon: "lianjiewangzhiwangzhan", link: "/collection/websites-and-tools/"},
-
-    ]
+    link: "/collection/",
   },
   {
     text: "教程",
     icon: "",
     children: [
-      
     ]
   },
   {

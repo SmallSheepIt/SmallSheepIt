@@ -1,1 +1,4 @@
-# Java基础
+---
+title: Java基础
+---
+<Catalog />

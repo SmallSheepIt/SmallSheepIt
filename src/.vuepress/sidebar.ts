@@ -75,41 +75,48 @@ export default sidebar({
       ]
     }
   ],
-  "/collection/websites-and-tools/": [
-    {
-      text: "机场服务商",
-      icon: "jichang",
-      link: "/collection/websites-and-tools/airport-list"
-    },
-    {
-      text: "破解网站",
-      icon: "baolipojie",
-      link: "/collection/websites-and-tools/crack-website"
-    },
-    {
-      text: "编程网站",
-      icon: "biancheng",
-      link: "/collection/websites-and-tools/programming-website"
-    },
-    {
-      text: "前端字体",
-      icon: "ziti",
-      link: "/collection/websites-and-tools/frontend-font"
-    },
-    {
-      text: "免费视频",
-      icon: "shipin",
-      link: "/collection/websites-and-tools/free-video"
-    },
-    {
-      text: "SSL证书",
-      icon: "SSL",
-      link: "/collection/websites-and-tools/ssl-website"
-    },
+  "/collection/": [
+      {
+        text: "资源网站&工具",
+        collapsible: true,
+        link: "/collection/websites-and-tools/",
+        children: [
+          {
+            text: "机场服务商",
+            icon: "jichang",
+            link: "/collection/websites-and-tools/airport-list"
+          },
+          {
+            text: "破解网站",
+            icon: "baolipojie",
+            link: "/collection/websites-and-tools/crack-website"
+          },
+          {
+            text: "编程网站",
+            icon: "biancheng",
+            link: "/collection/websites-and-tools/programming-website"
+          },
+          {
+            text: "前端字体",
+            icon: "ziti",
+            link: "/collection/websites-and-tools/frontend-font"
+          },
+          {
+            text: "免费视频",
+            icon: "shipin",
+            link: "/collection/websites-and-tools/free-video"
+          },
+          {
+            text: "SSL证书",
+            icon: "SSL",
+            link: "/collection/websites-and-tools/ssl-website"
+          },
+        ]
+      }
   ],
   "/life-notes/": [
     {
-      text: "新生儿出生后需要办的一些重要的事",
+      text: "新生儿宝宝出生后的那些事",
       link: "/life-notes/newborns-important-things",
     }
   ]

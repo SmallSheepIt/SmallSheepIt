@@ -1,5 +1,9 @@
 ---
+portfolio: true
 icon: circle-info
+# avatar: /logo.png
+bgImage: /img/logo4.png
+bgImageDark: /img/logo5.png
 # cover: /assets/images/cover3.jpg
 ---
 

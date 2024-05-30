@@ -2,7 +2,8 @@
 home: true
 layout: BlogHome
 icon: home
-title: 主页
+title: 网站主页
+# hero: false
 # 头像
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 # heroImage: "/logo.png"
@@ -17,7 +18,7 @@ heroText: "SmallSheep"
 # 副标题
 tagline: Don't wait, just do it now.
 # 全屏
-# heroFullScreen: true
+heroFullScreen: true
 article: false
 # 主页按钮
 # projects:

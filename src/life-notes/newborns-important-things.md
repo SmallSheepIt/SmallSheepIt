@@ -1,4 +1,10 @@
-# 新生儿出生后需要办的一些重要的事
+---
+title: 新生儿出生后需要办的一些重要的事
+shortTitle: 需要为新生儿办的事
+category: 新生儿
+description: 新生儿出生后需要办理的证件、报销和退费的一些操作
+isOriginal: true
+---
 
 ## 1、疫苗本
 
