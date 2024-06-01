@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: 网站主页
+title: 首页
 # hero: false
 # 头像
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg

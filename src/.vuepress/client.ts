@@ -11,7 +11,7 @@ import "vuepress-theme-hope/presets/bounce-icon.scss";
 // import "vuepress-theme-hope/presets/hide-sidebar-icon.scss";
 // import "vuepress-theme-hope/presets/hr-driving-car.scss";
 
-// const NavBarBeautify = defineAsyncComponent(() => import('./components/NavBarBeautify.vue'));
+const NavBarBeautify = defineAsyncComponent(() => import('./components/NavBarBeautify.vue'));
 // const HeroBG = defineAsyncComponent(() => import('./components/HeroBG.vue'));
 // const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 // const CommentHideBtn = defineAsyncComponent(() => import('./components/CommentHideBtn.vue'));
@@ -30,7 +30,7 @@ export default defineClientConfig({
   //   );
   // },
   rootComponents: [
-    // NavBarBeautify,
+    NavBarBeautify,
     // HeroBG,
     // HeroHitokoto,
     // NavMusic,
