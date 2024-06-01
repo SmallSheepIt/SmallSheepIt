@@ -58,12 +58,6 @@ onMounted(() => {
 });
 </script>
 
-// <template>
-//   <ClientOnly>
-//     <div class="none">修改顶栏组件</div>
-//   </ClientOnly>
-// </template>
-
 <style lang="scss">
 // sidebar 跟随顶栏一起上下移动
 .theme-container {
