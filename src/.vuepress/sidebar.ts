@@ -77,43 +77,17 @@ export default sidebar({
   ],
   "/collection/": [
       {
-        text: "资源网站&工具",
+        text: "资源网站",
         collapsible: true,
-        icon: "lianjiewangzhiwangzhan",
-        link: "/collection/websites-and-tools/",
-        children: [
-          {
-            text: "机场服务商",
-            icon: "jichang",
-            link: "/collection/websites-and-tools/airport-list"
-          },
-          {
-            text: "破解网站",
-            icon: "baolipojie",
-            link: "/collection/websites-and-tools/crack-website"
-          },
-          {
-            text: "编程网站",
-            icon: "biancheng",
-            link: "/collection/websites-and-tools/programming-website"
-          },
-          {
-            text: "前端字体",
-            icon: "ziti",
-            link: "/collection/websites-and-tools/frontend-font"
-          },
-          {
-            text: "免费视频",
-            icon: "shipin",
-            link: "/collection/websites-and-tools/free-video"
-          },
-          {
-            text: "SSL证书",
-            icon: "SSL",
-            link: "/collection/websites-and-tools/ssl-website"
-          },
-        ]
-      }
+        // icon: "lianjiewangzhiwangzhan",
+        link: "/collection/resource-websites",
+      },
+      {
+        text: "工具网站",
+        collapsible: true,
+        // icon: "lianjiewangzhiwangzhan",
+        link: "/collection/tools-websites",
+      },
   ],
   "/life-notes/": [
     {

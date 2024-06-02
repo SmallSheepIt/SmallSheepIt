@@ -12,7 +12,10 @@ export default navbar([
   {
     text: "收藏资源",
     icon: "resource",
-    link: "/collection/",
+    children: [
+      {text: "资源网站", icon: "lianjiewangzhiwangzhan", link: "/collection/resource-websites"},
+      {text: "工具网站", icon: "lianjiewangzhiwangzhan", link: "/collection/tools-websites"},
+    ]
   },
   {
     text: "教程",

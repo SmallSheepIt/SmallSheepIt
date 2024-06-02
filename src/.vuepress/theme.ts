@@ -19,6 +19,7 @@ export default hopeTheme(
     // 纯净模式，会禁用一些花哨的动画以及一些色彩，只提供功能
     // pure: true,
     fullscreen: true,
+    // print: false,
 
     // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
     logo: "/logo.png",
