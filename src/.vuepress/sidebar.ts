@@ -75,6 +75,36 @@ export default sidebar({
       ]
     }
   ],
+  "/database/": [
+
+  ],
+  "/computer-system/": [
+
+  ],
+  "/design-pattern/": [
+
+  ],
+  "/git/": [
+
+  ],
+  "/algorithm/": [
+
+  ],
+  "/docker/": [
+
+  ],
+  "/high-concurrency/": [
+
+  ],
+  "/distributed-microservices/": [
+
+  ],
+  "/cicd/": [
+
+  ],
+  "/data-structure/": [
+
+  ],
   "/collection/": [
       {
         text: "资源网站",

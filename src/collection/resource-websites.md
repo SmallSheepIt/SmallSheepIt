@@ -51,7 +51,7 @@ title: 资源网站
 
 ## Python
 
-#### 教程|社区
+教程|社区
 
 | 名称                    | 链接                                                         |
 | ----------------------- | ------------------------------------------------------------ |
@@ -62,16 +62,16 @@ title: 资源网站
 | 菜鸟教程-Python3板块    | https://www.runoob.com/python3/python3-tutorial.html         |
 | W3school-Python板块     | https://www.w3school.com.cn/python/index.asp                 |
 
-#### Github优秀源码
+Github优秀源码
 
-| 项目名称         | 链接                                            |
-| ---------------- | ----------------------------------------------- |
-| Python-100-Days  | https://github.com/jackfrued/Python-100-Days    |
-| interview_python | https://github.com/taizilongxu/interview_python |
+| 项目名称                 | 链接                                            |
+| ------------------------ | ----------------------------------------------- |
+| Python-100-Days          | https://github.com/jackfrued/Python-100-Days    |
+| interview_python(面试题) | https://github.com/taizilongxu/interview_python |
 
 ## Java
 
-#### 知名博主
+知名博主
 
 | 名称              | 链接                   |
 | ----------------- | ---------------------- |
@@ -96,4 +96,6 @@ title: 资源网站
 | ------ | ------------------------- |
 | 力扣   | https://leetcode.cn/      |
 | 牛客网 | https://www.nowcoder.com/ |
+
+
 
